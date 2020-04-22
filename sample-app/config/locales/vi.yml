@@ -9,6 +9,9 @@ vi:
       destroy: 'Xóa'
       new_user: 'Thêm người dùng'
       date: 'Ngày tạo'
+    new:
+      title: "Sign up"
+      text1: "This will be a signup page for new users."
   time:
     formats:
       own: "%H:%M:%S, %d %B"
@@ -20,7 +23,10 @@ vi:
   static_pages:
     home: 
       title: "Trang chủ"
-      link1: "Ruby on Rails Tutorial"
+      greeting: "Chào mừng đến với Sample App"
+      text1: "Đây là trang chủ cho"
+      text2: "Ví dụ ứng dụng."
+      book_name: "Ruby on Rails Tutorial"
     about:
       title: "Về chúng tôi"
       link1: "Ruby on Rails Tutorial"
@@ -31,6 +37,21 @@ vi:
       title: "trợ giúp"
       link1: "Rails Tutorial help page"
       link2: "Ruby on Rails Tutorial book"
+    contact:
+      title: "Contact"
+      text1: " Contact the Ruby on Rails Tutorial about the sample app at the"
+      link1: "contact page"
+  layouts:  
+    footer:
+      text1: "The"
+      text2: "by"
+      text3: "Michael Hartl"
+      text4: "News"
+  book: 
+    title: "Ruby on Rails Tutorial"
+    author: "Michael Hartl"
   english: "English"
   vietnam: "Tiếng Việt"
+  sign_up: "Đăng ký ngay!"
+  news: "News"
 

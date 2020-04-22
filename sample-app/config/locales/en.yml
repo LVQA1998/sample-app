@@ -9,6 +9,9 @@ en:
       destroy: 'Destroy'
       new_user: 'New User'
       date: 'Create date' 
+    new:
+      title: "Sign up"
+      text1: "This will be a signup page for new users."
   time:
     formats:
       own: "%H:%M:%S, %d %B"
@@ -20,7 +23,10 @@ en:
   static_pages:
     home: 
       title: "Home"
-      link1: "Ruby on Rails Tutorial"
+      greeting: "Welcome to the Sample App"
+      text1: "This is the home page for the"
+      text2: "sample application."
+      book_name: "Ruby on Rails Tutorial"
     about:
       title: "About"
       link1: "Ruby on Rails Tutorial"
@@ -31,6 +37,22 @@ en:
       title: "Help"
       link1: "Rails Tutorial help page"
       link2: "Ruby on Rails Tutorial book"
+    contact:
+      title: "Contact"
+      text1: " Contact the Ruby on Rails Tutorial about the sample app at the"
+      link1: "contact page"
+  layouts:  
+    footer:
+      text1: "The"
+      text2: "by"
+      text3: "Michael Hartl"
+      text4: "News"
+  book: 
+    title: "Ruby on Rails Tutorial"
+    author: "Michael Hartl"
   english: "English"
   vietnam: "Tiếng Việt"
+  sign_up: "Sign up now!"
+  news: "News"
+  
 

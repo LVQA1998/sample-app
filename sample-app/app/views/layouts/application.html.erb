@@ -4,12 +4,14 @@
     <title><%= yield(:title) %> | <%= t("tab_describer") %></title>
     <%= stylesheet_link_tag "application", media: "all","data-turbolinks-track": "reload" %>
     <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
+    <%= render 'layouts/shim' %>
   </head>
+
   <body>
-    <ul>
-      <%= link_to t("english"), locale: "en" %>
-      <%= link_to t("vietnam"), locale: "vi" %>
-    </ul>
+    <%= render 'layouts/header' %>
+  <div class="container">
     <%= yield %>
+  </div>
+  <%= render 'layouts/footer' %>
   </body>
 </html>

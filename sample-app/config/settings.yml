@@ -1,6 +1,13 @@
 home:
-  servers: [ {name: "https://www.google.com"}]
+  self_link: ""
+  servers: [ {name: "https://www.railstutorial.org/"}]
 about:
   servers: [{name: "https://www.railstutorial.org/"}, {name: "https://www.railstutorial.org/book"}, {name: "http://screencasts.railstutorial.org/"}, {name: "http://rubyonrails.org/"}]
 help:
   servers: [{name: "https://www.railstutorial.org/help"},{name: "https://www.railstutorial.org/book"}]
+contact:
+  link1: "https://www.railstutorial.org/contact"
+book:
+  link: "https://www.railstutorial.org/"
+  author_link: "http://www.michaelhartl.com/"
+  

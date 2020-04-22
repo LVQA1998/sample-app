@@ -1,4 +1,14 @@
 en:
+  users:
+    index:
+      user: 'Users'
+      name: 'Name'
+      email: 'Email'
+      show: 'Show'
+      edit: 'Edit'
+      destroy: 'Destroy'
+      new_user: 'New User'
+      date: 'Create date' 
   time:
     formats:
       own: "%H:%M:%S, %d %B"

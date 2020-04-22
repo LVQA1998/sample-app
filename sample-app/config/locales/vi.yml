@@ -1,0 +1,44 @@
+vi:
+  time:
+    formats:
+      own: "%H:%M:%S, %d %B"
+      default: "%d-%m-%Y"
+      long: "%d %B, %Y"
+      short: "%d %b"
+  currency: "dong"
+  tab_describer: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      greeting: "chao mung den voi Sample App"
+      text1: "This is the home page for the"
+      text2: "sample application."
+      link1: "Ruby on Rails Tutorial"
+    about:
+      title: "Về chúng tôi"
+      link1: "Ruby on Rails Tutorial"
+      link2: "Book"
+      link3: "screencast series"
+      link4: "Ruby on Rails"
+    help:
+      title: "trợ giúp"
+      link1: "Rails Tutorial help page"
+      link2: "Ruby on Rails Tutorial book"
+    contact:
+      title: "Lien he"
+  users:
+    new:
+      title: "Dang ky"
+  book:
+    title: "Ruby on Rails Tutorial"
+    author: "Michael Hartl"
+    news: "News"
+  english: "English"
+  vietnam: "Tiếng Việt"
+  signup: "Sign up now!"
+  sample_app: "Sample App"
+  lang: "Ngon ngu"
+  layout:
+    footer:
+      text1: "The"
+      text2: "by"

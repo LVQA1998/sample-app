@@ -45,4 +45,3 @@ config/settings/*.local.yml
 config/environments/*.local.yml
 test/controllers/*
 /test/
-database.yml

@@ -7,6 +7,9 @@ Rails.application.routes.draw do
     get "static_pages/help", to: "static_pages#help"
     get "static_pages/contact", to: "static_pages#contact"
     get "users/signup", to: "users#new"
+    get "sessions/login", to: "sessions#new"
+    post "sessions/login", to: "sessions#create"
+    delete "sessions/logout", to: "sessions#destroy"
     resources :users
   end
 end

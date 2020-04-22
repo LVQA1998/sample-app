@@ -11,22 +11,19 @@ en:
     home:
       title: "Home"
       greeting: "Welcome to the Sample App"
-      text1: "This is the home page for the"
-      text2: "sample application."
-      link1: "Ruby on Rails Tutorial"
+      home_page: "This is the home page for the"
+      application: "sample application."
     about:
       title: "About"
-      link1: "Ruby on Rails Tutorial"
-      link2: "Book"
-      link3: "screencast series"
-      link4: "Ruby on Rails"
+      book: "Book"
+      screen: "screencast series"
     help:
       title: "Help"
-      link1: "Rails Tutorial help page"
-      link2: "Ruby on Rails Tutorial book"
+      help_page: "Rails Tutorial help page"
     contact:
       title: "Contact"
   users:
+    title: "User"
     name: "Name"
     email: "Email"
     password: "Password"
@@ -35,6 +32,9 @@ en:
       error: "%{count} error"
     new:
       title: "Sign up"
+      create: "Create my account"
+    acount:
+      title: "Account"
   english: "English"
   vietnam: "Tiếng Việt"
   book:
@@ -48,11 +48,19 @@ en:
   lang: "languages"
   layout:
     footer:
-      text1: "The"
-      text2: "by"
+      the: "The"
+      by: "by"
   shared:
-    text1: "The form contains"
+    contain: "The form contains"
   greeting: "Welcome to the Sample App"
-  signup: "Create my account"
   signup_fail: "signup fail"
   undefine_user: "user are unavailable"
+  sessions:
+    new:
+      title: "Log in"
+      new_user_?: "New user?"
+    flash:
+      danger: "Invalid email/password combination"
+  profile: "Profile"
+  settings: "Settings"
+  logout: "Log out"

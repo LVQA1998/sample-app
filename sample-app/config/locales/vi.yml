@@ -5,52 +5,60 @@ vi:
       default: "%d-%m-%Y"
       long: "%d %B, %Y"
       short: "%d %b"
-  currency: "dong"
-  tab_describer: "Ruby on Rails Tutorial Sample App"
+  currency: "Đồng"
+  tab_describer: "Hướng dẫn Ruby on Rails Sample App"
   static_pages:
     home:
       title: "Trang chủ"
-      greeting: "chao mung den voi Sample App"
-      text1: "This is the home page for the"
-      text2: "sample application."
-      link1: "Ruby on Rails Tutorial"
+      greeting: "Chào mừng đến với Sample App"
+      home_page: "Đây là home page cho"
+      application: "ứng dụng sample"
     about:
       title: "Về chúng tôi"
-      link1: "Ruby on Rails Tutorial"
-      link2: "Book"
-      link3: "screencast series"
-      link4: "Ruby on Rails"
+      book: "Sách"
+      screen: "danh sách screencast"
     help:
       title: "trợ giúp"
-      link1: "Rails Tutorial help page"
-      link2: "Ruby on Rails Tutorial book"
+      help_page: "Rails Tutorial trang giúp đỡ"
     contact:
-      title: "Lien he"
+      title: "Liên Hệ"
   users:
-    name: "Ten"
+    title: "Người dùng"
+    name: "Tên"
     email: "email"
-    password: "mat khau"
-    confirmation: "nhap lai mat khau"
+    password: "Mật khẩu"
+    confirmation: "nhập lại mật khẩủ"
     count:
-      error: "%{count} Loi"
+      error: "%{count} lỗi"
     new:
-      title: "Dang ky"
+      title: "Đăng ký"
+      create: "Tạo tài khoản"
+    acount:
+      title: "Tài khoản"
   book:
     title: "Ruby on Rails Tutorial"
     author: "Michael Hartl"
-    news: "News"
+    news: "Tin Tức"
   english: "English"
   vietnam: "Tiếng Việt"
-  signup: "Sign up now!"
+  signup: "Đăng ký ngay"
   sample_app: "Sample App"
-  lang: "Ngon ngu"
+  lang: "Ngôn ngữ"
   layout:
     footer:
-      text1: "The"
-      text2: "by"
+      the: "Quyển"
+      by: "bởi"
   shared:
-    text1: "bao gom"
-  greeting: "Chao mung den voi Sample App"
-  signup: "Tao tai khoan"
-  signup_fail: "tao tk that bai"
-  undefine_user: "Nguoi dung ko ton tai"
+    contain: "Bao gồm"
+  greeting: "Chào mừng đến với Sample App"
+  signup_fail: "Tạo tài khoản thất bại"
+  undefine_user: "Người dùng không tồn tại"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      new_user_?: "Người dùng mới?"
+    flash:
+      danger: " email/password không hợp lệ"
+  profile: "Trang cá nhân"
+  settings: "Cài đặt"
+  logout: "Đăng xuất"

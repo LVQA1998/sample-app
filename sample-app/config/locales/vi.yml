@@ -57,8 +57,10 @@ vi:
     new:
       title: "Đăng nhập"
       new_user_?: "Người dùng mới?"
+      remember: "Nhớ tôi trên thiết bị này"
     flash:
       danger: " email/password không hợp lệ"
   profile: "Trang cá nhân"
   settings: "Cài đặt"
   logout: "Đăng xuất"
+  login: "Đăng nhập"

@@ -7,6 +7,10 @@
         <%= gravatar_for @user %>
         <%= @user.name %>
       </h1>
+       <section class="stats">
+        <%= render "shared/stats" %>
+      </section>
+      <%= render "follow_form" if logged_in? %>
     </section>
   </aside>
   <div class="col-md-8">

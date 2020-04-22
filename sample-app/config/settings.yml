@@ -20,6 +20,7 @@ gravatar:
   url: "https://secure.gravatar.com/avatar/"
   size: 80
   email: "https://gravatar.com/emails"
+  tiny_size: 30
 remember_me: "1"
 paginate_theme: "twitter-bootstrap-3"
 record_per_page: 5
@@ -33,3 +34,5 @@ image:
   accept: "image/jpg, image/jpeg,image/gif,image/png"
   resize: [500, 500]
   extension_whitelist: ["jpg", "jpeg", "gif", "png"]
+follow:
+  following_per_page: 10

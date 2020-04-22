@@ -19,3 +19,6 @@ password:
 gravatar: 
   url: "https://secure.gravatar.com/avatar/"
   size: 80
+  email: "https://gravatar.com/emails"
+remember_me: "1"
+paginate_theme: "twitter-bootstrap-3"

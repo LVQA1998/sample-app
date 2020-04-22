@@ -28,6 +28,7 @@ en:
     email: "Email"
     password: "Password"
     confirmation: "Confirmation"
+    save_changes: "Save changes"
     count:
       error: "%{count} error"
     new:
@@ -35,6 +36,15 @@ en:
       create: "Create my account"
     acount:
       title: "Account"
+    index:
+      title: "All users" 
+      delete: "Delete"
+      you_sure: "You sure?"
+      user_delete: "User deleted"
+    edit: 
+      title: "Edit user"
+      greeting: "Update your profile"
+      change: "change"
   english: "English"
   vietnam: "Tiếng Việt"
   book:
@@ -53,8 +63,6 @@ en:
   shared:
     contain: "The form contains"
   greeting: "Welcome to the Sample App"
-  signup_fail: "signup fail"
-  undefine_user: "user are unavailable"
   sessions:
     new:
       title: "Log in"
@@ -62,6 +70,15 @@ en:
       remember: "Remember me on this computer"
     flash:
       danger: "Invalid email/password combination"
+      signup_fail: "signup fail"
+      undefine_user: "user are unavailable"
+      edit_fail: "edit fail"
+      profile_updated: "Profile updated"
+      login_?: "Please log in."
+      update_success: "Profile updated"
+      check_email: "Please check your email to activate your account."
+      not_activated: "Account not activated."
+      activation_link: "Check your email for the activation link."
   profile: "Profile"
   settings: "Settings"
   logout: "Log out"

@@ -28,6 +28,7 @@ vi:
     email: "email"
     password: "Mật khẩu"
     confirmation: "nhập lại mật khẩủ"
+    save_changes: "Lưu thay đổi"
     count:
       error: "%{count} lỗi"
     new:
@@ -35,6 +36,15 @@ vi:
       create: "Tạo tài khoản"
     acount:
       title: "Tài khoản"
+    index:
+      title: "Tất cả người dùng"
+      delete: "Xóa"
+      you_sure: "Bạn chắc chắn muốn xóa chứ?"
+      user_delete: "Xóa người dùng"
+    edit: 
+      title: "Sử a người dùng"
+      greeting: "Cập nhập người dùng"
+      change: "thay đổi"
   book:
     title: "Ruby on Rails Tutorial"
     author: "Michael Hartl"
@@ -56,10 +66,21 @@ vi:
   sessions:
     new:
       title: "Đăng nhập"
-      new_user_?: "Người dùng mới?"
+      new_user: "Người dùng mới?"
       remember: "Nhớ tôi trên thiết bị này"
     flash:
       danger: " email/password không hợp lệ"
+      signup_fail: "Đăng nhập thất bại"
+      undefine_user: "Người dùng không tồn tại"
+      edit_fail: "Thay đổi thất bại"
+      profile_updated: "Cập nhập người dùng thành công"
+      login: "Hãy đăng nhập vào trước"
+      update_success: "Cập nhập người dùng thành công"
+      check_email: "kiểm tra email của bạn để kich hoạt tài khoản"
+      not_activated: "Tài khoản chưa được kích hoạt"
+      activation_link: "Kiểm tra email để kích hoạt tài khoản"
+      acount_activate: "Tài khoản được kích hoạt"
+      invalid_activation: "link kích hoạt không đúng"
   profile: "Trang cá nhân"
   settings: "Cài đặt"
   logout: "Đăng xuất"

@@ -18,3 +18,6 @@ email:
   maximum: 255
 password:
   minimum: 6
+gravatar: 
+  url: "https://secure.gravatar.com/avatar/"
+  size: 80

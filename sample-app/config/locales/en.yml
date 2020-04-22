@@ -133,3 +133,10 @@ en:
     confirm: "You sure?"
     delete: "delete"
     delete_fails: "delete fails"
+  following:
+    title: "Following"
+  followers:
+    title: "Followers"
+  profile: "view my profile"
+  follow: "follow"
+  unfollow: "Unfollow"

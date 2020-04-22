@@ -1,13 +1,13 @@
 home:
-  servers:
-    link1: "https://www.google.com"
 about:
-  servers:
     link1: "https://www.railstutorial.org/"
     link2: "https://www.railstutorial.org/book"
     link3: "http://screencasts.railstutorial.org/"
     link4: "http://rubyonrails.org/"
 help:
-  servers:
     link1: "https://www.railstutorial.org/help"
     link2: "https://www.railstutorial.org/book"
+book:
+  link: "https://www.railstutorial.org/"
+  author_link: "https://www.michaelhartl.com/"
+  news: "https://news.railstutorial.org/"

@@ -1,9 +1,10 @@
 class User < ApplicationRecord
-  attr_accessor :remember_token
+  attr_accessor :remember_token, :activation_token
   USER_PARAMS = [:name, :email, :password, :password_confirmation].freeze
   VALID_EMAIL_REGEX = Settings.email_regex
 
   before_save :downcase_email
+  before_create :create_activation_digest
   validates :name, presence: true, length: {maximum: Settings.name.maximum}
   validates :email, presence: true, length: {maximum: Settings.email.maximum}, format: {with: VALID_EMAIL_REGEX}, uniqueness: true
   has_secure_password
@@ -25,13 +26,14 @@ class User < ApplicationRecord
     update_attribute :remember_digest, User.digest(remember_token)
   end
 
-  def authenticated? remember_token
+  def authenticated? attribute, token
+    digest = send "#{attribute}_digest"
     return false unless remember_digest
     BCrypt::Password.new(remember_digest).is_password?(remember_token)
   end
 
   def forget
-    update_attribute :remember_digest, nil
+    update_attributes remember_digest: nil
   end
   
   class << self
@@ -47,11 +49,19 @@ class User < ApplicationRecord
   
   def remember
     self.remember_token = User.new_token
-    update_attribute :remember_digest, User.digest(remember_token)
+    update_attributes remember_digest: User.digest(remember_token)
   end
   
   def forget
-    update_attribute :remember_digest, nil
+    update_attributes remember_digest: nil
+  end
+
+  def activate
+    update_attributes activated: true, activated_at: Time.zone.now
+  end
+
+  def send_activation_email
+    UserMailer.account_activation(self).deliver_now
   end
 
   private

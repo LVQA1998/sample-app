@@ -41,7 +41,7 @@ vi:
       delete: "Xóa"
       you_sure: "Bạn chắc chắn muốn xóa chứ?"
       user_delete: "Xóa người dùng"
-    edit: 
+    edit:
       title: "Sử a người dùng"
       greeting: "Cập nhập người dùng"
       change: "thay đổi"
@@ -80,7 +80,7 @@ vi:
   settings: "Cài đặt"
   logout: "Đăng xuất"
   login: "Đăng nhập"
-  mail: 
+  mail:
     subject: "Kích hoạt tài khoản"
   views:
     pagination:
@@ -89,3 +89,14 @@ vi:
       previous: "‹ Trước"
       next: "Sau ›"
       truncate: "…"
+  mailer:
+    account_activation: "Kích hoạt tài khoản"
+    check_email: "kiểm tra email để xác nhận tài khoản"
+    account_activated: "Đã được kích hoạt"
+    inactivated: "link kích hoạt không đúng"
+    message: "tài khoản của bạn đã được kích hoạt. Kiểm tra trong email"
+  user_mailer:
+    find_me: "Tìm tôi ở app/views/user_mailer/account_activation.html.erb"
+    title: "User#account_activation"
+  reset_passoword:
+    title: "User#password_reset"

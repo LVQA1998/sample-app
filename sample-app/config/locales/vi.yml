@@ -1,0 +1,20 @@
+en:
+  activerecord:
+    attributes:
+      user:
+        email: Email@
+        first_name: First@Name
+        last_name: Last@Name
+    model:
+      user: Users
+  back: Back
+  date:
+    formats:
+      default: "%m/%d/%Y"
+      short: "%m/%d"
+  edit: Edit
+  greetings: "Xin chao"
+  visitors:
+    index:
+      greetings: "xin chao"
+      

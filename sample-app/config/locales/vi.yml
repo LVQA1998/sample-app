@@ -27,6 +27,12 @@ vi:
     contact:
       title: "Lien he"
   users:
+    name: "Ten"
+    email: "email"
+    password: "mat khau"
+    confirmation: "nhap lai mat khau"
+    count:
+      error: "%{count} Loi"
     new:
       title: "Dang ky"
   book:
@@ -42,3 +48,9 @@ vi:
     footer:
       text1: "The"
       text2: "by"
+  shared:
+    text1: "bao gom"
+  greeting: "Chao mung den voi Sample App"
+  signup: "Tao tai khoan"
+  signup_fail: "tao tk that bai"
+  undefine_user: "Nguoi dung ko ton tai"

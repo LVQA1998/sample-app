@@ -1,13 +1,13 @@
 <header class="navbar navbar-fixed-top navbar-inverse">
   <div class="container">
-    <%= link_to t(".sample_app"), '#', id: "logo" %>
+    <%= link_to t(".sample_app"), static_pages_home_path, id: "logo" %>
     <nav>
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to t("static_pages.home.title"), static_pages_home_path %></li>
         <li><%= link_to t("static_pages.about.title"), static_pages_about_path %></li>
         <li><%= link_to t("static_pages.help.title"), static_pages_help_path %></li>
         <li class="lang">
-          <%= t("lang") %>
+          <%= t "lang" %>
           <ul>
             <li><%= link_to t("vietnam"), locale: "vi" %></li>
             <li><%= link_to t("english"), locale: "en" %></li>

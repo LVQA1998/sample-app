@@ -27,6 +27,12 @@ en:
     contact:
       title: "Contact"
   users:
+    name: "Name"
+    email: "Email"
+    password: "Password"
+    confirmation: "Confirmation"
+    count:
+      error: "%{count} error"
     new:
       title: "Sign up"
   english: "English"
@@ -44,3 +50,9 @@ en:
     footer:
       text1: "The"
       text2: "by"
+  shared:
+    text1: "The form contains"
+  greeting: "Welcome to the Sample App"
+  signup: "Create my account"
+  signup_fail: "signup fail"
+  undefine_user: "user are unavailable"

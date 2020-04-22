@@ -37,11 +37,11 @@ en:
     acount:
       title: "Account"
     index:
-      title: "All users" 
+      title: "All users"
       delete: "Delete"
       you_sure: "You sure?"
       user_delete: "User deleted"
-    edit: 
+    edit:
       title: "Edit user"
       greeting: "Update your profile"
       change: "change"
@@ -80,12 +80,23 @@ en:
   settings: "Settings"
   logout: "Log out"
   login: "Log in"
-  mail:
-    subject: "Kích hoạt tài khoản"
-views:
+  views:
     pagination:
       first: "« FIRST"
       last: "LAST »"
       previous: "‹ PREV"
       next: "NEXT ›"
       truncate: "…"
+  mailer:
+    account_activation: "Account activation"
+    check_email: "Please check your email to activate your account."
+    account_activated: "Account activated!"
+    inactivated: "Invalid activation link"
+    message: "Account not activated. Check your email for the activation link."
+  user_mailer:
+    wellcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    title: "Sample App"
+    hi: "Hi"
+    activate: "Activate"
+  reset_passoword:
+    title: "User#password_reset"

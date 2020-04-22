@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>SampleApp</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+    <title><%= yield(:title) %> | <%= t("tab_describer") %></title>
+    <%= stylesheet_link_tag "application", media: "all","data-turbolinks-track": "reload" %>
+    <%= javascript_pack_tag "application", "data-turbolinks-track": "reload" %>
   </head>
   <body>
     <ul>
-      <%= content_tag :li do %>
-      <%= link_to 'Switch to English', locale: :en %>
-      <% end unless current_page?(locale: :en) %>
-
-      <%= content_tag :li do %>
-      <%= link_to 'Switch to Japanese', locale: :ja %>
-      <% end unless current_page?(locale: :ja) %>
+      <%= link_to t("english"), locale: "en" %>
+      <%= link_to t("vietnam"), locale: "vi" %>
     </ul>
-    <%= t :greetings %>
-    <%= l Date.today %>
-    <%= l Date.today, format: :short %>
     <%= yield %>
   </body>
 </html>

@@ -1,0 +1,6 @@
+home:
+  servers: [ {name: "https://www.google.com"}]
+about:
+  servers: [{name: "https://www.railstutorial.org/"}, {name: "https://www.railstutorial.org/book"}, {name: "http://screencasts.railstutorial.org/"}, {name: "http://rubyonrails.org/"}]
+help:
+  servers: [{name: "https://www.railstutorial.org/help"},{name: "https://www.railstutorial.org/book"}]

@@ -1,0 +1,8 @@
+<%= provide(:title, t(".title")) %>
+<h2><%= t(".title") %></h2>
+<p>
+  <%= link_to t(".link1"), Settings.about.servers[0].name, target:"_blank" %>
+  <%= link_to t(".link2"), Settings.about.servers[1].name  %>
+  <%= link_to t(".link3"), Settings.about.servers[2].name %>
+  <%= link_to t(".link4"), Settings.about.servers[3].name %>
+</p>

@@ -1,0 +1,5 @@
+<%= provide(:title, t(".title")) %>
+<h2><%= t(".title") %></h2>
+<p><%= link_to t(".link1"), Settings.home.servers[0].name %></p>
+<p><%= l(Date.today, formats: :long) %></p>
+<p><%= l(Date.today, formats: :short) %></p>

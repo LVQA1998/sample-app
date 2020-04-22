@@ -59,8 +59,10 @@ en:
     new:
       title: "Log in"
       new_user_?: "New user?"
+      remember: "Remember me on this computer"
     flash:
       danger: "Invalid email/password combination"
   profile: "Profile"
   settings: "Settings"
   logout: "Log out"
+  login: "Log in"

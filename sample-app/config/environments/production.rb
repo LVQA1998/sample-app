@@ -12,6 +12,8 @@ Rails.application.configure do
   config.i18n.fallbacks = true
   config.active_support.deprecation = :notify
   config.log_formatter = ::Logger::Formatter.new
+  config.secret_key_base = 'e2de7fe712d9fcf026cbbdb01992c0d0ab65e7998fa23ded6f58ab532da5a53b1de5fc0d87c92c3694a9cbe1e1264b30d11584dbba95e34e64cd823d401c4a96'
+  config.force_ssl = true
   if ENV["RAILS_LOG_TO_STDOUT"].present?
     logger           = ActiveSupport::Logger.new(STDOUT)
     logger.formatter = config.log_formatter

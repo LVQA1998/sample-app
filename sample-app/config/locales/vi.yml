@@ -1,20 +1,25 @@
-en:
-  activerecord:
-    attributes:
-      user:
-        email: Email@
-        first_name: First@Name
-        last_name: Last@Name
-    model:
-      user: Users
-  back: Back
-  date:
+vi:
+  time:
     formats:
-      default: "%m/%d/%Y"
-      short: "%m/%d"
-  edit: Edit
-  greetings: "Xin chao"
-  visitors:
-    index:
-      greetings: "xin chao"
-      
+      own: "%H:%M:%S, %d %B"
+      default: "%d-%m-%Y"
+      long: "%d %B, %Y"
+      short: "%d %b"
+  currency: "dong"
+  tab_describer: "Ruby on Rails Tutorial Sample App"
+  static_pages:
+    home:
+      title: "Trang chủ"
+      link1: "Ruby on Rails Tutorial"
+    about:
+      title: "Về chúng tôi"
+      link1: "Ruby on Rails Tutorial"
+      link2: "Book"
+      link3: "screencast series"
+      link4: "Ruby on Rails"
+    help:
+      title: "trợ giúp"
+      link1: "Rails Tutorial help page"
+      link2: "Ruby on Rails Tutorial book"
+  english: "English"
+  vietnam: "Tiếng Việt"

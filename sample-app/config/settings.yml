@@ -25,3 +25,4 @@ paginate_theme: "twitter-bootstrap-3"
 record_per_page: 5
 norep_email: "noreply@example.com"
 reset_password_email: "to@example.org"
+expired_hours: 2

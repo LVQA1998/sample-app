@@ -96,7 +96,24 @@ vi:
     inactivated: "link kích hoạt không đúng"
     message: "tài khoản của bạn đã được kích hoạt. Kiểm tra trong email"
   user_mailer:
-    find_me: "Tìm tôi ở app/views/user_mailer/account_activation.html.erb"
-    title: "User#account_activation"
+    wellcome: "Welcome to the Sample App! Click on the link below to activate your account:"
+    title: "Sample App"
+    hi: "Hi"
+    activate: "Activate"
   reset_passoword:
-    title: "User#password_reset"
+    click: "Để đặt lại mật khẩu click vào link bên dưới"
+    expire: "Link sẽ hết hạn trong vòng 2 giờ"
+    ignore: "Nếu bạn ko yêu cầu đặt lại mật khẩu, hãy bỏ qua mail này sẽ giữ nguyên mật khẩu hiện tại"
+  forgot_password: "Quên mật khẩu"
+  instruction: "đã gửi mật khẩu mới đến email"
+  email_not_found: "Không tìm thấy email"
+  password_resets:
+    new: 
+      title: "Quên mật khẩu"
+      password_reset: "Đặt lại mật khẩu"
+      submit: "Gửi"
+    edit: 
+      title: "Đặt lại mật khẩu"
+      update: "Cập nhập mật khẩu"
+      empty: "Không thể để trống"
+      success: "Mật khẩu đã đươcj thay đổi."

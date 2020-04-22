@@ -76,6 +76,7 @@ en:
       profile_updated: "Profile updated"
       login_?: "Please log in."
       update_success: "Profile updated"
+      expired: "Password reset has expired."
   profile: "Profile"
   settings: "Settings"
   logout: "Log out"
@@ -99,4 +100,19 @@ en:
     hi: "Hi"
     activate: "Activate"
   reset_passoword:
-    title: "User#password_reset"
+    click: "To reset your password click the link below:"
+    expire: "This link will expire in two hours."
+    ignore: "If you did not request your password to be reset, please ignore this email and your password will stay as it is."
+  forgot_password: "(forgot password)"
+  instruction: "Email sent with password reset instructions"
+  email_not_found: "Email address not found"
+  password_resets:
+    new: 
+      title: "Forgot password"
+      password_reset: "Password reset"
+      submit: "Submit"
+    edit: 
+      title: "Reset password"
+      update: "Update password"
+      empty: "can't be empty"
+      success: "Password has been reset."

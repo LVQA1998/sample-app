@@ -26,3 +26,10 @@ record_per_page: 5
 norep_email: "noreply@example.com"
 reset_password_email: "to@example.org"
 expired_hours: 2
+micropost:
+  content_max: 140
+image:
+  size: 5
+  accept: "image/jpg, image/jpeg,image/gif,image/png"
+  resize: [500, 500]
+  extension_whitelist: ["jpg", "jpeg", "gif", "png"]

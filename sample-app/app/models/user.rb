@@ -1,8 +1,10 @@
 class User < ApplicationRecord
+  has_many :microposts, dependent: :destroy
   attr_accessor :remember_token, :activation_token, :reset_token
   USER_PARAMS = [:name, :email, :password, :password_confirmation].freeze
   VALID_EMAIL_REGEX = Settings.email_regex
   PASSWORD_PERMIT = [:password, :password_confirmation].freeze
+  
 
   before_save :downcase_email
   before_create :create_activation_digest
@@ -56,6 +58,10 @@ class User < ApplicationRecord
 
   def password_reset_expired?
     reset_sent_at < Settings.expired_hours.hours.ago
+  end
+
+  def feed
+    Micropost.by_created_at.feed_user_id id
   end
 
   private

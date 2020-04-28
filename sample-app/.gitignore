@@ -41,6 +41,7 @@ gkc_*
 *.rdb
 /bin/*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 >>>>>>> chapter_3
@@ -52,3 +53,9 @@ test/controllers/*
 /test/
 =======
 >>>>>>> chapter_3
+=======
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
+>>>>>>> f18ff4492944653d8767b82f1ec1ee5fd69ba35d

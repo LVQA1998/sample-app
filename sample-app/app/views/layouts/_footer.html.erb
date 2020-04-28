@@ -1,0 +1,15 @@
+<footer class="footer">
+    <small>
+        <%= t ".text1" %>
+        <%= link_to t("book.title"), Settings.book.link %>
+        <%= t ".text1" %>
+        <%= link_to t("book.author"), Settings.book.author_link %>
+    </small>
+    <nav>
+      <ul>
+        <li><%= link_to t("static_pages.about.title"),   '#' %></li>
+        <li><%= link_to t("static_pages.contact.title"), static_pages_contact_path %></li>
+        <li><%= link_to t(".news"), Settings.book.link %>
+      </ul>
+    </nav>
+  </footer>

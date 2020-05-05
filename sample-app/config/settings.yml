@@ -11,3 +11,10 @@ book:
   link: "https://www.railstutorial.org/"
   author_link: "https://www.michaelhartl.com/"
   news: "https://news.railstutorial.org/"
+email_regex: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+name:
+  maximum: 50
+email:
+  maximum: 255
+password:
+  minimum: 6

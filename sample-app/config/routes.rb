@@ -10,6 +10,7 @@ Rails.application.routes.draw do
     get "sessions/login", to: "sessions#new"
     post "sessions/login", to: "sessions#create"
     delete "sessions/logout", to: "sessions#destroy"
+    resources :account_activations, only: [:edit]
     resources :users
   end
 end
